@@ -10,6 +10,6 @@ function plusOne(num) {
     return 0;
 }
 
-function sayHello() {
-    return "";
+function sayHello(Jane) {
+    return  "Hello, Jane!";
 }
