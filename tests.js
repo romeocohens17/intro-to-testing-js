@@ -13,3 +13,32 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+// plusOne
+
+describe('plusOne', function() {
+    it('should be defined a function', function() {
+        expect(typeof plusOne).toBe("function");
+    });
+    it('should be of the number data type' , function() {
+        expect(typeof plusOne()).toBe("number")
+    });
+    it('should return 5 when passed 4' , function() {
+        expect(plusOne(4)).toBe(5)
+    });
+    it('should return 0 when passed anything but a number' , function() {
+        expect(plusOne(true)).toBe(0)
+    });
+});
+
+//sayHello
+
+describe('sayHello' , function(){
+    it('should be a defined function' , function(){
+        expect(typeof sayHello).toBe("function");
+    });
+    it('should be of the string data type' , function () {
+        expect(typeof sayHello()).toBe("string")
+    });
+    it('should')
+});
