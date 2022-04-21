@@ -29,6 +29,15 @@ function sayHello(input) {
     return "Hello, " + input + "!";
 }
 
+function isFive(val) {
+    if (typeof val === "number") {
+        return true;
+    }else if (typeof val === "string") {
+        return true;
+    }
+    return (typeof val === "boolean");
+}
+
 
 
 
