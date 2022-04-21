@@ -23,8 +23,12 @@ function plusOne(num) {
 //
 
 function sayHello(input) {
-        return "Hello, " + input + "!";
+    if (typeof input !== "string") {
+        return "Hello, World!" ;
+    }
+    return "Hello, " + input + "!";
 }
+
 
 
 
